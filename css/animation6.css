@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+
+    from {top: 0px;}
+    to {top: 200px; border-color: black; }
+
+    from {top: 0px;}
+    to {top: 200px; border-radius: 100px; }
+  }
